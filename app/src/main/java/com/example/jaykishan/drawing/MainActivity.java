@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     drawView.setErase(true);
                     drawView.setBrushSize(smallBrush);
                     brushDialog.dismiss();
+
                 }
             });
             ImageButton mediumBtn = (ImageButton)brushDialog.findViewById(R.id.medium_brush);
@@ -137,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     drawView.setErase(true);
                     drawView.setBrushSize(mediumBrush);
                     brushDialog.dismiss();
+
                 }
             });
             ImageButton largeBtn = (ImageButton)brushDialog.findViewById(R.id.large_brush);
@@ -146,6 +148,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     drawView.setErase(true);
                     drawView.setBrushSize(largeBrush);
                     brushDialog.dismiss();
+
                 }
             });
 
